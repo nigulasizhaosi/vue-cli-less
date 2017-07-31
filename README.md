@@ -129,7 +129,7 @@ Less的css属性大多都可以进行加减乘除的运算，例子如下。
 ### 六 JavaScript 表达式  
 在css里面写JavaScript表达式，这简直颠覆了我对css的认识。不过不要紧，我们要时刻知道，less只是css的预编译工具。尽管它可以写的天花乱坠，但按一下F12，依然是我们熟悉的css样式。它只是方便我们编写css，最终的结果总是不变得。  
 
-`@upperStr: `"hello".toUpperCase()`;`
+@upperStr: \`"hello".toUpperCase()\`;
 像这样用 \` 包裹表达式。
 ```
 .div:after{
